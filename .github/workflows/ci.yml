@@ -29,3 +29,9 @@ jobs:
         run: |
           npm install remark-cli remark-preset-lint-consistent
           npx remark . --use remark-preset-lint-consistent --frail
+
+      # uploads an artifact (file or directory) during the job, so it can be downloaded later from the GitHub Actions interface
+      - uses: actions/upload-artifact@v4
+        with:
+          name: remark-lint-report          # Name of the artifact
+          path: remark-lint-report.json     # Specify the path to the file or directory to upload
