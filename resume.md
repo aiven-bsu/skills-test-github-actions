@@ -6,12 +6,19 @@ _Charting the knowledge of the Internet, just like Galileo charted the stars._
 
 ### GitHub Trainer
 
-Teach all things *Git*, give away all the stickers, ensure world peace.
+<!-- Teach all things *Git*, give away all the stickers, ensure world peace. -->
 
 <!--
   Note here: Learners -- yup, you found the error!
   Course maintainers -- leave the italics with * instead of _ for the error case.
 -->
+
+<!-- 
+  My Note: "remark" powerful Markdown processor. "remark-lint" is part of the "remark-cli" ecosystem. "remark-lint" scans Markdown files for inconsistencies such as:
+
+  (*italics* vs _italics_)
+  #title vs # title
+ -->
 
 ### Supportocat
 
